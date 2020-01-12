@@ -1,0 +1,55 @@
+.states {
+	font-family: Helvetica;
+	font-size: 30px;
+
+}
+.states_h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.states_h2:hover {
+	text-decoration: underline;
+	transition: 1s;
+}
+.header_section {
+	padding: 50px 70px;
+}
+.end {
+	font-size: 25px;
+	font-family: Helvetica;
+	padding: 40px 50px;
+	margin-top: 30px;
+	text-decoration: none;
+	color: black;
+}
+.git {
+	padding: 100px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	width: 900px;
+}
+.git_h1 {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+.git_text b {
+	font-size: 30px;
+	margin-top: 100px;
+	font-family: 'Oswald', sans-serif;
+}
+.git_text2 {
+	margin-top: 50px;
+}
+.git_text3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.git_when a {
+	font-size: 25px;
+}
+.git_when img {
+	display: block;
+}

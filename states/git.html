@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Установка git - работа вместе!</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a href="../index.html" class="end">Назад</a>
+	<section class="git">
+		<git class="git_h1">Установка git и для чего это надо</git>
+		<div class="git_text">
+			<b>Для чего нужен git?</b>
+			<br>
+			<div class="git_text2">Система git нужна для того, что-бы заливать свои сайты на хостинг ( грубо говоря в интернет ). А так же дает пользователям возможность работать вместе. Неважно где-бы вы не находились. Даже этот сайт сейчас работает на системе git. Github это сайт который позваляет загрузить ваш сайт в интернет. Так же это позваляет быстро посмотреть ваш сайт на телефоне или проверить адаптивность на Больших и маленьких мониторах. </div>
+			<p class="git_text3">
+				Как пользоваться системой git и github?
+			</p>
+			<div class="git_when">
+				Что-бы начать пользовать системой <b>git</b>, нужно его сначала скачать.
+
+				<br>
+
+				Заходим на сайт <a href="https://git-scm.com" target="_blank">https://git-scm.com/</a>
+					<br>
+				Находим кнопку download и нажимаем (пойдет скачивание)
+				<br><br>
+				<img src="../img/download.png" alt="">
+				<br>
+				Запускаем скаченый файл и нажимаем: next - next - next до тех пор пока не пойдет установка:
+					<br><br><br>
+				<img src="../img/install_git.png" alt="">
+				<br><br>
+				Поздравляю! <b>Git</b> установлен на ваш ПК!
+				<br><br><br>
+				Пора поработать с сайтом github, что-бы было куда вылаживать сайт:
+				<br><br>
+				заходим на сайт <a href="https://github.com/join?source=header-home" target="_blank">github.com</a>
+				<br>
+				Тут простая регистрация: Логин, пароль, почта.
+				<br><br><br>
+				<img src="../img/github.png" alt="" width="900px">
+				<br>
+				После этого выскакивает окно по выбору плана. Выбирем free и нажимаем Choose free
+				<br><br><br>
+				<img src="../img/github_register.png" alt="">
+				<br>
+				Отлично вы появились. Теперь нажмите на иконку github сверху - слева
+				<br><br>
+				<img src="../img/icon_github.png" alt="">
+				Теперь вас просит подтвердить email. Заходим на email и подтверждаем.
+				<br>
+				<br>
+				<br>
+				<img src="../img/verifity.png" alt="">
+				<br><br>
+				После чего на почту предет сообщение от github. Нажимаем <b>Verify email adress</b>
+				<br>
+				<br>
+				<br>
+				<img src="../img/verify.png" alt="">
+				<br>
+				<br>
+				<br>
+				Теперь переходим на <a href="https://github.com/new" target="_blank">github.com/new</a>
+				<br><br>
+				Должно появится  <b> Create a new repository</b>
+				<br>
+				После чего в окно <b>Repository name</b> вписываем то что в окне owner, тоесть ваш логин и добавляете github.io   Должно получится в формате Login.github.io
+				<br><br>
+				Например у меня:
+				<br>
+				<br>
+				<br>
+				<img src="../img/owner.png" alt="">
+				<br>
+				<br>
+				Спускаемся чуть ниже и нажимаем create repository
+				<br>
+				<br>
+				<br>
+				<b>у вас должно появится:</b>
+				<br><br><br>
+				<img src="../img/ginal.png" alt="">
+				<br>
+				<br>
+				<br>
+				С сайтом все готово. Продолжаем работать с программой git.
+				<br>
+				Создайте <b>index.html</b> и подключите к нему <b>style.css</b> .
+				<br>
+				<br>
+				Для теста, напишите в index.html тестовый текст, например:
+				<br><br>
+				elkhfoeilufg,waeksutjmgnwfe
+				<br><br><br><br><br>
+				<b>Теперь внимательно!</b>
+				<br><br>
+				Заходим в папку с index.html . Нам нужно запустить командную строку в этой папке. самый легкий способ это в корне папки вписать <b>cmd</b> и нажать <b>Enter</b>. Вот так:
+				<br><br><br>
+				<img src="../img/" alt="">
+				<br>
+				<a href="http://skrinshoter.ru/v/120120/CojDBrrp?a" target="_blank">Тык</a>
+				<br>
+				Отлично, теперь вписываем:
+				<b>git init</b>
+				<br>
+				Этим мы подключаем git к этой папке
+				<br><br>
+				Дальше, мы должны создать в git имя пользователя и емеил.
+				Эту процедуру мы делаем 1 раз за все время. 
+				<br>
+				<br>
+				<br>
+				<b>git config --global user.name "тут имя на английском"</b>
+				<br>
+				<b>и</b>
+				<br>
+				<b>git config --global user.email email@email.com</b>
+				<br>
+				нужно заметить то что имя мы пишем в "", а email без
+				<br><br>
+				Теперь, мы настроили git, пора заливать нашу папку в интернет.
+				<br><br>
+				<b>git add -A</b>
+				<br>
+				add - добавляет<br>
+				-A - Все элементы<br>
+				то-есть: git добавляет все элементы в так называемое хранилище.
+				<br>
+				<br>
+				Теперь это хранилище мы должны перевести в обновление (сommit).
+				<br>
+				<b>git commit -a -m"имя commit"</b>
+				<br>
+				commit - обновление
+				<br>
+				-a  - все элементы
+				<br>-m название
+				<br>
+				Но не забываем название писать слитно с -m <br>
+				то-есть: -m"name"
+				<br><br>
+				все полностью готово к вылаживанию, но надо подключить <b>github</b> к <b>git</b>
+				<br>
+				<br>
+				Вернемся к:
+				<br>
+				<img src="../img/ginal.png" alt="">
+				<br><br>
+				Нам нужны только эти <b>2 строки!</b>
+				<br>
+				<br>
+				<br>
+				<img src="../img/two.png" alt="">
+				<br><br>
+				поочередно вписываем сначало первую строку, потом вторую.
+				У каждого строки разные, поэтому мою взять не получится(((
+				<br><br>	
+				Теперь по названию вашего repository. Пример: User.github.io будет доступен ваш сайт. Там сразу откроется ваш index.html.
+				<br>
+				Если нету то попробуйте написать <br>
+				<b>git push</b>
+				<br>
+				Теперь все что нужно сделать чтобы вылажить новое обновление
+				<br>
+				<b>git add -A
+
+				<br><br>
+
+				git commit -a -m"название обновления"
+                <br>
+				<br>
+
+				git push
+				<br><br>
+
+
+				</b>
+				<b>И все!</b>
+
+				<br>
+				<br>
+				<br>
+				Статья создана <b>MrMelsik</b>
+
+
+
+
+			</div>
+		</div>
+	</section>
+</body>
+</html>
